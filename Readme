@@ -1,0 +1,17 @@
+# COVID_ANALYTICS Project
+
+This repository contains the complete code, queries, and architecture diagram for the COVID_ANALYTICS project.
+
+## Files
+- `snowflake_queries.sql`: SQL queries for table creation, stage setup, data loading, and querying.
+- `glue_etl_script.py`: AWS Glue ETL script for transforming and loading data to Snowflake.
+- `COVID_ANALYTICS_Architecture.png`: Architecture diagram.
+- `trust_policy.json`: IAM trust policy for GlueETLrole.
+
+## Architecture Diagram
+![COVID_ANALYTICS Architecture](COVID_ANALYTICS.png)
+
+## Setup
+1. Clone: `git clone https://github.com/asbrohi/COVID_ANALYTICS.git`
+2. Configure credentials in `glue_etl_script.py` and `trust_policy.json`.
+3. Run Glue job and Snowflake queries as needed.
