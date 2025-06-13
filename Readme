@@ -2,7 +2,7 @@
 
 This repository contains the complete code, queries, and architecture diagram for the COVID_ANALYTICS project.
 
-## Files
+# Files
 - `snowflake_queries.sql`: SQL queries for table creation, stage setup, data loading, and querying.
 - `glue_etl_script.py`: AWS Glue ETL script for transforming and loading data to Snowflake.
 - `COVID_ANALYTICS_Architecture.png`: Architecture diagram.
